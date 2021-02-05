@@ -8,13 +8,23 @@ We believe it is important that our assessment of your skills matches the techni
 
 ## Problem 1
 
-Please familiarize yourself with the schema defined in the file `problem1-schema.sql` in this repository. **TODO: Comment SQL Schema**
+Please familiarize yourself with the schema defined in the file `problem1-schema.sql` in this repository.
 
-**TODO: Explain what data should be aggregated. Maybe even give schema for final result?**
+This schema is an example of a simple event tracking system for desktop live streaming software.
+
+Please write one or more SQL User-Defined Functions to aggregate this table in a way that it can be used to generate the following reports:
+- Monthly Active Users based on `stream_start` and `app_start` events
+- Daily Active Users based on the same
+- Daily count of new users
+- User cohort retention based on `stream_start` and `app_start`
+
+Please note, you are to provide the aggregated data necessary to generate these reports.  Your output does not necessarily need to generate these reports in their final form.
+
+Your solution should include SQL statements that define your UDF(s).
 
 ## Problem 2
 
-Please familiarize yourself with the schema defined in the file `problem2-schema.sql` in this repository. **TODO: Comment SQL Schema**
+Please familiarize yourself with the schema defined in the file `problem2-schema.sql` in this repository.
 
 This schema is simple model of the Streamlabs live streaming tools service. Users can use the service to stream to any streaming platform. Users can receive donations from their viewers on the platform. Streamlabs is free to use, but there is a premium subscription service that provides additional features and benefits.
 
